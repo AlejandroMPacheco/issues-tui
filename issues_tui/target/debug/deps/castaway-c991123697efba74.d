@@ -1,0 +1,8 @@
+/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/deps/castaway-c991123697efba74.d: /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/castaway-0.2.4/src/lib.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/castaway-0.2.4/src/internal.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/castaway-0.2.4/src/lifetime_free.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/castaway-0.2.4/src/utils.rs
+
+/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/deps/libcastaway-c991123697efba74.rmeta: /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/castaway-0.2.4/src/lib.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/castaway-0.2.4/src/internal.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/castaway-0.2.4/src/lifetime_free.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/castaway-0.2.4/src/utils.rs
+
+/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/castaway-0.2.4/src/lib.rs:
+/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/castaway-0.2.4/src/internal.rs:
+/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/castaway-0.2.4/src/lifetime_free.rs:
+/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/castaway-0.2.4/src/utils.rs:

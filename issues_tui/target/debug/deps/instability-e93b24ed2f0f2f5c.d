@@ -1,0 +1,8 @@
+/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/deps/instability-e93b24ed2f0f2f5c.d: /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/instability-0.3.9/src/lib.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/instability-0.3.9/src/item_like.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/instability-0.3.9/src/stable.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/instability-0.3.9/src/unstable.rs
+
+/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/deps/libinstability-e93b24ed2f0f2f5c.dylib: /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/instability-0.3.9/src/lib.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/instability-0.3.9/src/item_like.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/instability-0.3.9/src/stable.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/instability-0.3.9/src/unstable.rs
+
+/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/instability-0.3.9/src/lib.rs:
+/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/instability-0.3.9/src/item_like.rs:
+/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/instability-0.3.9/src/stable.rs:
+/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/instability-0.3.9/src/unstable.rs:
