@@ -1,14 +1,723 @@
-   0.274378935s  INFO prepare_target{force=false package_id=issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui) target="issues_tui"}: cargo::core::compiler::fingerprint: stale: changed "/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/src/main.rs"
-   0.274668364s  INFO prepare_target{force=false package_id=issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui) target="issues_tui"}: cargo::core::compiler::fingerprint:           (vs) "/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/issues_tui-2922f826541dff3e/dep-bin-issues_tui"
-   0.274695138s  INFO prepare_target{force=false package_id=issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui) target="issues_tui"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1763731315, nanos: 863311426 } < FileTime { seconds: 1763732096, nanos: 150157750 }
-   0.275506139s  INFO prepare_target{force=false package_id=issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui) target="issues_tui"}: cargo::core::compiler::fingerprint: fingerprint dirty for issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui)/Check { test: false }/TargetInner { name: "issues_tui", doc: true, ..: with_path("/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/src/main.rs", Edition2024) }
-   0.275528611s  INFO prepare_target{force=false package_id=issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui) target="issues_tui"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/issues_tui-2922f826541dff3e/dep-bin-issues_tui", reference_mtime: FileTime { seconds: 1763731315, nanos: 863311426 }, stale: "/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/src/main.rs", stale_mtime: FileTime { seconds: 1763732096, nanos: 150157750 } }))
-   0.297462934s  INFO prepare_target{force=false package_id=issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui) target="issues_tui"}: cargo::core::compiler::fingerprint: stale: changed "/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/src/main.rs"
-   0.297476001s  INFO prepare_target{force=false package_id=issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui) target="issues_tui"}: cargo::core::compiler::fingerprint:           (vs) "/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/issues_tui-3a495c87b1e06377/dep-test-bin-issues_tui"
-   0.297480677s  INFO prepare_target{force=false package_id=issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui) target="issues_tui"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1763731315, nanos: 863295248 } < FileTime { seconds: 1763732096, nanos: 150157750 }
-   0.297787850s  INFO prepare_target{force=false package_id=issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui) target="issues_tui"}: cargo::core::compiler::fingerprint: fingerprint dirty for issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui)/Check { test: true }/TargetInner { name: "issues_tui", doc: true, ..: with_path("/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/src/main.rs", Edition2024) }
-   0.297808903s  INFO prepare_target{force=false package_id=issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui) target="issues_tui"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/issues_tui-3a495c87b1e06377/dep-test-bin-issues_tui", reference_mtime: FileTime { seconds: 1763731315, nanos: 863295248 }, stale: "/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/src/main.rs", stale_mtime: FileTime { seconds: 1763732096, nanos: 150157750 } }))
+   0.136113219s  INFO prepare_target{force=false package_id=issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui) target="issues_tui"}: cargo::core::compiler::fingerprint: fingerprint error for issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui)/Check { test: false }/TargetInner { name: "issues_tui", doc: true, ..: with_path("/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/src/main.rs", Edition2024) }
+   0.136164513s  INFO prepare_target{force=false package_id=issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui) target="issues_tui"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/issues_tui-6596815e15110b4d/bin-issues_tui`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+  18: <unknown>
+   0.174840935s  INFO prepare_target{force=false package_id=color-eyre v0.6.5 target="color_eyre"}: cargo::core::compiler::fingerprint: fingerprint error for color-eyre v0.6.5/Check { test: false }/TargetInner { ..: lib_target("color_eyre", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-eyre-0.6.5/src/lib.rs", Edition2018) }
+   0.174874415s  INFO prepare_target{force=false package_id=color-eyre v0.6.5 target="color_eyre"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/color-eyre-9ec36b47969a3917/lib-color_eyre`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+  19: <unknown>
+   0.175654705s  INFO prepare_target{force=false package_id=backtrace v0.3.76 target="backtrace"}: cargo::core::compiler::fingerprint: fingerprint error for backtrace v0.3.76/Check { test: false }/TargetInner { ..: lib_target("backtrace", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/backtrace-0.3.76/src/lib.rs", Edition2021) }
+   0.175672361s  INFO prepare_target{force=false package_id=backtrace v0.3.76 target="backtrace"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/backtrace-c02b58ade75589f3/lib-backtrace`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   0.176332929s  INFO prepare_target{force=false package_id=addr2line v0.25.1 target="addr2line"}: cargo::core::compiler::fingerprint: fingerprint error for addr2line v0.25.1/Check { test: false }/TargetInner { ..: lib_target("addr2line", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/addr2line-0.25.1/src/lib.rs", Edition2018) }
+   0.176349767s  INFO prepare_target{force=false package_id=addr2line v0.25.1 target="addr2line"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/addr2line-78aed398e7eb65df/lib-addr2line`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   0.176800541s  INFO prepare_target{force=false package_id=gimli v0.32.3 target="gimli"}: cargo::core::compiler::fingerprint: fingerprint error for gimli v0.32.3/Check { test: false }/TargetInner { ..: lib_target("gimli", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gimli-0.32.3/src/lib.rs", Edition2018) }
+   0.176817849s  INFO prepare_target{force=false package_id=gimli v0.32.3 target="gimli"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/gimli-bda0991e1ae8d443/lib-gimli`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   0.178289947s  INFO prepare_target{force=false package_id=miniz_oxide v0.8.9 target="miniz_oxide"}: cargo::core::compiler::fingerprint: fingerprint error for miniz_oxide v0.8.9/Check { test: false }/TargetInner { ..: lib_target("miniz_oxide", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/miniz_oxide-0.8.9/src/lib.rs", Edition2021) }
+   0.178304904s  INFO prepare_target{force=false package_id=miniz_oxide v0.8.9 target="miniz_oxide"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/miniz_oxide-7262f7db4dab4b69/lib-miniz_oxide`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   0.178648707s  INFO prepare_target{force=false package_id=adler2 v2.0.1 target="adler2"}: cargo::core::compiler::fingerprint: fingerprint error for adler2 v2.0.1/Check { test: false }/TargetInner { ..: lib_target("adler2", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/adler2-2.0.1/src/lib.rs", Edition2021) }
+   0.178661685s  INFO prepare_target{force=false package_id=adler2 v2.0.1 target="adler2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/adler2-b5c957ddad6dee59/lib-adler2`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   0.179241652s  INFO prepare_target{force=false package_id=object v0.37.3 target="object"}: cargo::core::compiler::fingerprint: fingerprint error for object v0.37.3/Check { test: false }/TargetInner { ..: lib_target("object", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/object-0.37.3/src/lib.rs", Edition2018) }
+   0.179261569s  INFO prepare_target{force=false package_id=object v0.37.3 target="object"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/object-686fb57ed0fc3fcb/lib-object`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   0.179761962s  INFO prepare_target{force=false package_id=memchr v2.7.6 target="memchr"}: cargo::core::compiler::fingerprint: fingerprint error for memchr v2.7.6/Check { test: false }/TargetInner { benched: false, ..: lib_target("memchr", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memchr-2.7.6/src/lib.rs", Edition2021) }
+   0.179779253s  INFO prepare_target{force=false package_id=memchr v2.7.6 target="memchr"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/memchr-aedc85c052e43b61/lib-memchr`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   0.180661457s  INFO prepare_target{force=false package_id=rustc-demangle v0.1.26 target="rustc_demangle"}: cargo::core::compiler::fingerprint: fingerprint error for rustc-demangle v0.1.26/Check { test: false }/TargetInner { ..: lib_target("rustc_demangle", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustc-demangle-0.1.26/src/lib.rs", Edition2015) }
+   0.180680804s  INFO prepare_target{force=false package_id=rustc-demangle v0.1.26 target="rustc_demangle"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/rustc-demangle-703f51d92edbad2f/lib-rustc_demangle`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   0.181151273s  INFO prepare_target{force=false package_id=color-spantrace v0.3.0 target="color_spantrace"}: cargo::core::compiler::fingerprint: fingerprint error for color-spantrace v0.3.0/Check { test: false }/TargetInner { ..: lib_target("color_spantrace", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/color-spantrace-0.3.0/src/lib.rs", Edition2018) }
+   0.181169604s  INFO prepare_target{force=false package_id=color-spantrace v0.3.0 target="color_spantrace"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/color-spantrace-900b064cf7d9ec4d/lib-color_spantrace`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   0.182228870s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell v1.21.3/Check { test: false }/TargetInner { ..: lib_target("once_cell", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/once_cell-1.21.3/src/lib.rs", Edition2021) }
+   0.182253881s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/once_cell-24d18f85e783faa8/lib-once_cell`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   0.183127045s  INFO prepare_target{force=false package_id=owo-colors v4.2.3 target="owo_colors"}: cargo::core::compiler::fingerprint: fingerprint error for owo-colors v4.2.3/Check { test: false }/TargetInner { ..: lib_target("owo_colors", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/owo-colors-4.2.3/src/lib.rs", Edition2021) }
+   0.183148542s  INFO prepare_target{force=false package_id=owo-colors v4.2.3 target="owo_colors"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/owo-colors-5415794f13d1077f/lib-owo_colors`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   0.184037294s  INFO prepare_target{force=false package_id=tracing-core v0.1.34 target="tracing_core"}: cargo::core::compiler::fingerprint: fingerprint error for tracing-core v0.1.34/Check { test: false }/TargetInner { ..: lib_target("tracing_core", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-core-0.1.34/src/lib.rs", Edition2018) }
+   0.184068989s  INFO prepare_target{force=false package_id=tracing-core v0.1.34 target="tracing_core"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/tracing-core-267143ab96554e8f/lib-tracing_core`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   0.185419891s  INFO prepare_target{force=false package_id=tracing-error v0.2.1 target="tracing_error"}: cargo::core::compiler::fingerprint: fingerprint error for tracing-error v0.2.1/Check { test: false }/TargetInner { ..: lib_target("tracing_error", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-error-0.2.1/src/lib.rs", Edition2018) }
+   0.185444781s  INFO prepare_target{force=false package_id=tracing-error v0.2.1 target="tracing_error"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/tracing-error-a96fdc051df1e2ba/lib-tracing_error`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   0.186026910s  INFO prepare_target{force=false package_id=tracing v0.1.41 target="tracing"}: cargo::core::compiler::fingerprint: fingerprint error for tracing v0.1.41/Check { test: false }/TargetInner { ..: lib_target("tracing", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-0.1.41/src/lib.rs", Edition2018) }
+   0.186045413s  INFO prepare_target{force=false package_id=tracing v0.1.41 target="tracing"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/tracing-026a65b556b8bf99/lib-tracing`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   0.186622882s  INFO prepare_target{force=false package_id=pin-project-lite v0.2.16 target="pin_project_lite"}: cargo::core::compiler::fingerprint: fingerprint error for pin-project-lite v0.2.16/Check { test: false }/TargetInner { doc_scrape_examples: Disabled, ..: lib_target("pin_project_lite", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-project-lite-0.2.16/src/lib.rs", Edition2018) }
+   0.186642570s  INFO prepare_target{force=false package_id=pin-project-lite v0.2.16 target="pin_project_lite"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/pin-project-lite-a51abfafae6371c3/lib-pin_project_lite`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_ws
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+  23: <unknown>
+   0.187094418s  INFO prepare_target{force=false package_id=tracing-subscriber v0.3.20 target="tracing_subscriber"}: cargo::core::compiler::fingerprint: fingerprint error for tracing-subscriber v0.3.20/Check { test: false }/TargetInner { ..: lib_target("tracing_subscriber", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-subscriber-0.3.20/src/lib.rs", Edition2018) }
+   0.187114148s  INFO prepare_target{force=false package_id=tracing-subscriber v0.3.20 target="tracing_subscriber"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/tracing-subscriber-d8f8b05bff507400/lib-tracing_subscriber`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   0.187715181s  INFO prepare_target{force=false package_id=sharded-slab v0.1.7 target="sharded_slab"}: cargo::core::compiler::fingerprint: fingerprint error for sharded-slab v0.1.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sharded_slab", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sharded-slab-0.1.7/src/lib.rs", Edition2018) }
+   0.187735827s  INFO prepare_target{force=false package_id=sharded-slab v0.1.7 target="sharded_slab"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/sharded-slab-462e70e2069da40b/lib-sharded_slab`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_ws
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+  23: <unknown>
+   0.188249424s  INFO prepare_target{force=false package_id=lazy_static v1.5.0 target="lazy_static"}: cargo::core::compiler::fingerprint: fingerprint error for lazy_static v1.5.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("lazy_static", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lazy_static-1.5.0/src/lib.rs", Edition2015) }
+   0.188268444s  INFO prepare_target{force=false package_id=lazy_static v1.5.0 target="lazy_static"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/lazy_static-1564967be9f425f8/lib-lazy_static`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: cargo::core::compiler::compile
+  13: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  14: cargo::ops::cargo_compile::compile_ws
+  15: cargo::ops::cargo_compile::compile_with_exec
+  16: cargo::ops::cargo_compile::compile
+  17: cargo::commands::check::exec
+  18: <cargo::cli::Exec>::exec
+  19: cargo::main
+  20: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  21: std::rt::lang_start::<()>::{closure#0}
+  22: std::rt::lang_start_internal
+  23: _main
+  24: <unknown>
+   0.188695924s  INFO prepare_target{force=false package_id=thread_local v1.1.9 target="thread_local"}: cargo::core::compiler::fingerprint: fingerprint error for thread_local v1.1.9/Check { test: false }/TargetInner { ..: lib_target("thread_local", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thread_local-1.1.9/src/lib.rs", Edition2021) }
+   0.188714337s  INFO prepare_target{force=false package_id=thread_local v1.1.9 target="thread_local"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/thread_local-76600829b89472b7/lib-thread_local`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_ws
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+  23: <unknown>
+   0.189209572s  INFO prepare_target{force=false package_id=eyre v0.6.12 target="eyre"}: cargo::core::compiler::fingerprint: fingerprint error for eyre v0.6.12/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("eyre", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/eyre-0.6.12/src/lib.rs", Edition2018) }
+   0.189228474s  INFO prepare_target{force=false package_id=eyre v0.6.12 target="eyre"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/eyre-373f0462a7c61183/lib-eyre`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   0.190118653s  INFO prepare_target{force=false package_id=indenter v0.3.4 target="indenter"}: cargo::core::compiler::fingerprint: fingerprint error for indenter v0.3.4/Check { test: false }/TargetInner { ..: lib_target("indenter", ["lib"], "/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indenter-0.3.4/src/lib.rs", Edition2018) }
+   0.190139415s  INFO prepare_target{force=false package_id=indenter v0.3.4 target="indenter"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/indenter-84825d1a1c49f7fa/lib-indenter`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   0.204460911s  INFO prepare_target{force=false package_id=issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui) target="issues_tui"}: cargo::core::compiler::fingerprint: fingerprint error for issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui)/Check { test: true }/TargetInner { name: "issues_tui", doc: true, ..: with_path("/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/src/main.rs", Edition2024) }
+   0.204479489s  INFO prepare_target{force=false package_id=issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui) target="issues_tui"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/.fingerprint/issues_tui-4bee96ba19085bbf/test-bin-issues_tui`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+  18: <unknown>
+    Checking once_cell v1.21.3
+    Checking lazy_static v1.5.0
+    Checking thread_local v1.1.9
+    Checking pin-project-lite v0.2.16
+    Checking memchr v2.7.6
+    Checking sharded-slab v0.1.7
+    Checking gimli v0.32.3
+    Checking tracing-core v0.1.34
+    Checking tracing v0.1.41
+    Checking adler2 v2.0.1
+    Checking miniz_oxide v0.8.9
+    Checking tracing-subscriber v0.3.20
+    Checking object v0.37.3
+    Checking owo-colors v4.2.3
+    Checking tracing-error v0.2.1
+    Checking indenter v0.3.4
+    Checking rustc-demangle v0.1.26
+    Checking color-spantrace v0.3.0
+    Checking eyre v0.6.12
+    Checking addr2line v0.25.1
+    Checking backtrace v0.3.76
+    Checking color-eyre v0.6.5
     Checking issues_tui v0.1.0 (/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui)
-error: could not compile `issues_tui` (bin "issues_tui") due to 2 previous errors
-warning: build failed, waiting for other jobs to finish...
-error: could not compile `issues_tui` (bin "issues_tui" test) due to 2 previous errors
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 21.51s

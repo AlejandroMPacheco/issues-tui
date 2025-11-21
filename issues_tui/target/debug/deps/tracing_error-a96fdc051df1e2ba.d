@@ -1,0 +1,8 @@
+/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/deps/tracing_error-a96fdc051df1e2ba.d: /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-error-0.2.1/src/lib.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-error-0.2.1/src/backtrace.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-error-0.2.1/src/error.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-error-0.2.1/src/layer.rs
+
+/Users/pedroalejandromartinezpacheco/DEVELOPMENT/issues-tui/issues_tui/target/debug/deps/libtracing_error-a96fdc051df1e2ba.rmeta: /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-error-0.2.1/src/lib.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-error-0.2.1/src/backtrace.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-error-0.2.1/src/error.rs /Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-error-0.2.1/src/layer.rs
+
+/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-error-0.2.1/src/lib.rs:
+/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-error-0.2.1/src/backtrace.rs:
+/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-error-0.2.1/src/error.rs:
+/Users/pedroalejandromartinezpacheco/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tracing-error-0.2.1/src/layer.rs:
