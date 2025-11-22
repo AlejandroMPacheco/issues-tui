@@ -5,33 +5,49 @@ use ratatui::{
     buffer::Buffer,
     layout::{Constraint, Flex, Layout, Rect},
     text::Text,
-    widgets::{Block, List, ListDirection, ListItem, Widget},
+    widgets::{Block, Borders, List, ListDirection, ListItem, ListState, Paragraph, Widget},
 };
 use std::time::{Duration, Instant};
 
 fn main() -> Result<()> {
     color_eyre::install()?;
     let terminal = ratatui::init();
-    let result = App::default().run(terminal);
+    let result = App::new().run(terminal);
     ratatui::restore();
     result
 }
 
-#[derive(Default)]
 struct App {
     should_quit: bool,
-    text: String,
+    title: String,
+    items: Vec<String>,
+    list_state: ListState,
+    last_tick: Instant,
 }
 
-// fn run(mut terminal: DefaultTerminal) -> Result<()> {
-//     loop {
-//         terminal.draw(render)?;
-//         if matches!(event::read()?, Event::Key(q)) {
-//             break Ok(());
-//         }
-//     }
-// }
+struct IssuesList {
+    list: Vec<String>,
+}
+
 impl App {
+    //elements
+    fn new() -> Self {
+        let mut list_state = ListState::default();
+        list_state.select(Some(0));
+        Self {
+            title: "Issues-Tui".to_string(),
+            should_quit: false,
+            items: vec![
+                "First item".into(),
+                "Second item".into(),
+                "Third item".into(),
+                "Fourth item".into(),
+            ],
+            list_state,
+            last_tick: Instant::now(),
+        }
+    }
+
     fn run(mut self, mut terminal: DefaultTerminal) -> Result<()> {
         while !self.should_quit {
             self.draw(&mut terminal)?;
@@ -39,10 +55,41 @@ impl App {
         }
         Ok(())
     }
+
     fn draw(&mut self, tui: &mut DefaultTerminal) -> Result<()> {
-        tui.draw(|frame| frame.render_widget(self, frame.area()))?;
+        tui.draw(|f| {
+            let size = f.area();
+            let chunks = Layout::vertical([Constraint::Length(3), Constraint::Min(0)]).split(size);
+
+            let header = Paragraph::new(self.title.as_str())
+                .block(Block::default().borders(Borders::ALL).title("Header"));
+            f.render_widget(header, chunks[0]);
+
+            let items: Vec<ListItem> = self
+                .items
+                .iter()
+                .map(|s| ListItem::new(s.as_str()))
+                .collect();
+            let list = List::new(items)
+                .block(Block::default().borders(Borders::ALL).title("Items"))
+                .highlight_symbol(">> ")
+                .highlight_spacing(ratatui::widgets::HighlightSpacing::Always);
+
+            // render a stateful list (requires ListState in App)
+            f.render_stateful_widget(list, chunks[1], &mut self.list_state);
+        })?;
+
         Ok(())
     }
+
+    fn select_next(&mut self) {
+        self.list_state.select_next();
+    }
+
+    fn select_previous(&mut self) {
+        self.list_state.select_previous();
+    }
+
     fn handle_events(&mut self) -> Result<()> {
         let timeout = Duration::from_secs_f64(1.0 / 50.0);
         if !event::poll(timeout)? {
@@ -51,45 +98,11 @@ impl App {
         if let Event::Key(key) = event::read()? {
             match key.code {
                 KeyCode::Char('q') | KeyCode::Esc => self.should_quit = true,
+                KeyCode::Down => self.select_next(),
+                KeyCode::Up => self.select_previous(),
                 _ => {}
             }
         }
         Ok(())
     }
 }
-impl Widget for &mut App {
-    fn render(self, area: Rect, buf: &mut Buffer) {
-        let constraints = Constraint::from_lengths([1, 1, 2, 1]);
-        let [greeting, timer, squares, position] = Layout::vertical(constraints).areas(area);
-
-        // render an ephemeral greeting widget
-
-        // render a reference to the timer widget
-
-        // render a boxed widget containing red and blue squares
-        #[cfg(feature = "unstable-widget-ref")]
-        self.boxed_squares.render(squares, buf);
-
-        // render a mutable reference to the green square widget
-
-        // Display the dynamically updated position of the green square
-
-        // square_position.render(position, buf);
-    }
-}
-// fn center(area: Rect, horizontal: Constraint, vertical: Constraint) -> Rect {
-//     let [area] = Layout::horizontal([horizontal])
-//         .flex(Flex::Center):wa!
-//         .areas(area);
-//     let [area] = Layout::vertical([vertical]).flex(Flex::Center).areas(area);
-//     area
-// }
-// fn render(frame: &mut Frame) {
-//     let text = Text::raw("hi");
-//     let area = center(
-//         frame.area(),
-//         Constraint::Percentage(20),
-//         Constraint::Length(3),
-//     );
-//     frame.render_widget(text, area);
-// }
